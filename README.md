@@ -68,16 +68,34 @@ No API key required, reliable and fast for assignment/demo purposes.
 ## 📂 Project Structure
 
 crypto-dashboard/
-│-- src/
-│ │-- components/ # UI components (Dashboard, CryptoCard, PriceChart)
-│ │-- services/ # API service (Binance API integration)
-│ │-- types/ # TypeScript type definitions
-│ ├── App.tsx # Main app entry
-│ ├── index.tsx # ReactDOM entry point
-│-- public/ # Public assets (favicon, index.html)
-│-- tailwind.config.js # Tailwind CSS configuration
-│-- tsconfig.json # TypeScript configuration
-│-- package.json # Project metadata & dependencies
+│
+├── src/ # Main source code
+│ ├── components/ # UI components
+│ │ ├── Dashboard.tsx # Main dashboard layout
+│ │ ├── CryptoCard.tsx # Reusable crypto price card
+│ │ └── PriceChart.tsx # Bitcoin price trend chart
+│ │
+│ ├── services/ # API service logic
+│ │ └── cryptoAPI.ts # Binance API integration functions
+│ │
+│ ├── types/ # TypeScript type definitions
+│ │ └── index.ts # Type interfaces
+│ │
+│ ├── App.tsx # Root app component
+│ ├── index.tsx # Application entry point (ReactDOM render)
+│ └── index.css # Global styles (if any)
+│
+├── public/ # Public assets
+│ ├── favicon.ico
+│ ├── index.html
+│ └── manifest.json
+│
+├── tailwind.config.js # Tailwind CSS configuration
+├── tsconfig.json # TypeScript configuration
+├── package.json # Project dependencies & scripts
+├── postcss.config.js # PostCSS configuration for Tailwind
+├── README.md # Project documentation
+└── yarn.lock / package-lock.json # Dependency lock file
 
 text
 
