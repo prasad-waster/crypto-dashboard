@@ -65,37 +65,6 @@ No API key required, reliable and fast for assignment/demo purposes.
 
 ---
 
-crypto-dashboard/
-│
-├── src/
-│   ├── components/
-│   │   ├── Dashboard.tsx
-│   │   ├── CryptoCard.tsx
-│   │   └── PriceChart.tsx
-│   │
-│   ├── services/
-│   │   └── cryptoAPI.ts
-│   │
-│   ├── types/
-│   │   └── index.ts
-│   │
-│   ├── App.tsx
-│   ├── index.tsx
-│   └── index.css
-│
-├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   └── manifest.json
-│
-├── tailwind.config.js
-├── tsconfig.json
-├── package.json
-├── postcss.config.js
-├── README.md
-└── yarn.lock / package-lock.json
-
-
 ## ✍ Author
 
 **Prasad Waster** – Full-Stack Developer  
