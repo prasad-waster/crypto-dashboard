@@ -31,15 +31,13 @@ Live Deployment: [Click Here to View](https://crypto-dashboard-prasad-waster.net
 
 Clone and install dependencies:
 git clone https://github.com/prasad-waster/crypto-dashboard.git
+
 cd crypto-dashboard
 npm install
-
-text
 
 Run development server:
 npm start
 
-text
 App will be available at:  
 `http://localhost:3000`
 
@@ -49,7 +47,6 @@ App will be available at:
 
 npm run build
 
-text
 This generates an optimized build inside the `/build` folder.
 
 ---
