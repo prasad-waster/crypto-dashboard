@@ -66,6 +66,8 @@ No API key required, reliable and fast for assignment/demo purposes.
 ---
 
 ## 📂 Project Structure
+
+---
 crypto-dashboard/
 │
 ├── src/                               # Main source code
