@@ -66,36 +66,36 @@ No API key required, reliable and fast for assignment/demo purposes.
 ---
 
 ## 📂 Project Structure
-
 crypto-dashboard/
 │
-├── src/ # Main source code
-│ ├── components/ # UI components
-│ │ ├── Dashboard.tsx # Main dashboard layout
-│ │ ├── CryptoCard.tsx # Reusable crypto price card
-│ │ └── PriceChart.tsx # Bitcoin price trend chart
-│ │
-│ ├── services/ # API service logic
-│ │ └── cryptoAPI.ts # Binance API integration functions
-│ │
-│ ├── types/ # TypeScript type definitions
-│ │ └── index.ts # Type interfaces
-│ │
-│ ├── App.tsx # Root app component
-│ ├── index.tsx # Application entry point (ReactDOM render)
-│ └── index.css # Global styles (if any)
+├── src/                               # Main source code
+│   ├── components/                    # UI components
+│   │   ├── Dashboard.tsx               # Main dashboard layout
+│   │   ├── CryptoCard.tsx              # Reusable crypto price card
+│   │   └── PriceChart.tsx              # Bitcoin price trend chart
+│   │
+│   ├── services/                       # API service logic
+│   │   └── cryptoAPI.ts                 # Binance API integration functions
+│   │
+│   ├── types/                          # TypeScript type definitions
+│   │   └── index.ts                     # Type interfaces
+│   │
+│   ├── App.tsx                         # Root app component
+│   ├── index.tsx                       # Application entry point (ReactDOM render)
+│   └── index.css                       # Global styles (if any)
 │
-├── public/ # Public assets
-│ ├── favicon.ico
-│ ├── index.html
-│ └── manifest.json
+├── public/                             # Public assets
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
 │
-├── tailwind.config.js # Tailwind CSS configuration
-├── tsconfig.json # TypeScript configuration
-├── package.json # Project dependencies & scripts
-├── postcss.config.js # PostCSS configuration for Tailwind
-├── README.md # Project documentation
-└── yarn.lock / package-lock.json # Dependency lock file
+├── tailwind.config.js                  # Tailwind CSS configuration
+├── tsconfig.json                       # TypeScript configuration
+├── package.json                        # Project dependencies & scripts
+├── postcss.config.js                   # PostCSS configuration for Tailwind
+├── README.md                           # Project documentation
+└── yarn.lock / package-lock.json       # Dependency lock file
+
 ---
 
 ## ✍ Author
