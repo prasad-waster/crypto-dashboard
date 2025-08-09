@@ -96,9 +96,6 @@ crypto-dashboard/
 ├── postcss.config.js # PostCSS configuration for Tailwind
 ├── README.md # Project documentation
 └── yarn.lock / package-lock.json # Dependency lock file
-
-text
-
 ---
 
 ## ✍ Author
