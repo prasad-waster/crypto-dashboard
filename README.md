@@ -70,14 +70,14 @@ No API key required, reliable and fast for assignment/demo purposes.
 ---
 crypto-dashboard/
 │
-├── src/                               # Main source code
-│   ├── components/                    # UI components
-│   │   ├── Dashboard.tsx               # Main dashboard layout
-│   │   ├── CryptoCard.tsx              # Reusable crypto price card
-│   │   └── PriceChart.tsx              # Bitcoin price trend chart
+├── src/                               
+│   ├── components/                   
+│   │   ├── Dashboard.tsx               
+│   │   ├── CryptoCard.tsx              
+│   │   └── PriceChart.tsx             
 │   │
-│   ├── services/                       # API service logic
-│   │   └── cryptoAPI.ts                 # Binance API integration functions
+│   ├── services/                       
+│   │   └── cryptoAPI.ts               
 │   │
 │   ├── types/                          # TypeScript type definitions
 │   │   └── index.ts                     # Type interfaces
