@@ -66,7 +66,6 @@ No API key required, reliable and fast for assignment/demo purposes.
 
 **Prasad Waster** – Full-Stack Developer  
 Email: prasadwaster@example.com  
-GitHub: [Your GitHub Profile](https://github.com/prasad-waster)
 
 ---
 
